@@ -42,14 +42,14 @@ const Navbar = () => {
               alt="AG-LINC Holdings Logo"
               className={`transition-all duration-300  ${isScrolled ? "h-10" : "h-19"}`}
             />
-            <div className="flex flex-col leading-tight">
+            {/* <div className="flex flex-col leading-tight">
               <span className="text-xl font-bold tracking-tight text-white group-hover:text-secondary transition-colors">
                 AG-LINC
               </span>
               <span className="text-[10px] uppercase tracking-[0.2em] text-secondary">
                 Holdings
               </span>
-            </div>
+            </div> */}
           </div>
 
           {/* Desktop Navigation */}
