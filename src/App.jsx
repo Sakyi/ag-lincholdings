@@ -5,7 +5,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/ag-lincholdings" element={<Home />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </Router>
   );
